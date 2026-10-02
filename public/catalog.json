@@ -1,0 +1,51 @@
+{
+  "id": "shagren",
+  "name": "ШАГРЕНЬ",
+  "description": "Кожаные аксессуары. Персональное тиснение.",
+  "products": [
+    {
+      "id": "s1",
+      "name": "Сумка «Линия»",
+      "category": "Сумки",
+      "price": 18400,
+      "subtitle": "Седельная кожа · 28 × 22 см",
+      "image": "assets/bag.jpg",
+      "material": "Гладкая кожа",
+      "size": "28 × 22 × 10 см",
+      "stock": 8
+    },
+    {
+      "id": "s2",
+      "name": "Сумка «Форма № 2»",
+      "category": "Сумки",
+      "price": 21900,
+      "subtitle": "Мягкая кожа · 34 × 26 см",
+      "image": "assets/bag2.jpg",
+      "material": "Зернистая кожа",
+      "size": "34 × 26 × 12 см",
+      "stock": 6
+    },
+    {
+      "id": "s3",
+      "name": "Кардхолдер «Срез»",
+      "category": "Аксессуары",
+      "price": 3900,
+      "subtitle": "Четыре отделения · ручной шов",
+      "image": "assets/wallet.jpg",
+      "material": "Кожа растительного дубления",
+      "size": "10 × 7 см",
+      "stock": 18
+    },
+    {
+      "id": "s4",
+      "name": "Кошелёк «Складка»",
+      "category": "Аксессуары",
+      "price": 6800,
+      "subtitle": "Компактный формат · шесть карт",
+      "image": "assets/wallet2.jpg",
+      "material": "Гладкая кожа",
+      "size": "11 × 9 см",
+      "stock": 12
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "shagren-store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Кожаные аксессуары. Персональное тиснение.",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/build.mjs && node server/index.mjs",
+    "build": "tsc --noEmit && node scripts/build.mjs",
+    "start": "node server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
+    "esbuild": "0.25.9",
+    "typescript": "5.9.2"
+  }
+}
